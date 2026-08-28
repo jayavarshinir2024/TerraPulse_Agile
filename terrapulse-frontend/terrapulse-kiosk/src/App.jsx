@@ -4,7 +4,7 @@ import { SplitText } from './components/SplitText';
 // Import professional icons
 import { Sprout, FileText, UserCheck, Target, Banknote, Cloud, CheckCircle2, FileImage, FileCode2, Map, CreditCard, Globe } from 'lucide-react';
 import logo from './assets/logo.png';
-import bgImage from './assets/farming.jpg';
+import bgImage from './assets/Farming.jpg';
 import kccImg1 from './assets/KCC1.jpg';
 import kccImg2 from './assets/KCC2.jpg';    
 import kccImg3 from './assets/KCC3.png'; 
