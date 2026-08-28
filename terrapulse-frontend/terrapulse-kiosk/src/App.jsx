@@ -356,8 +356,8 @@ export default function App() {
       const base64Image = await convertFileToBase64(fileToProcess);
       const fileExt = '.' + (fileToProcess.name ? fileToProcess.name.split('.').pop() : 'jpg');
 
-      // Connected to API Gateway Endpoint URL (fallback to local server if needed)
-      const apiEndpoint = import.meta.env.VITE_API_GATEWAY_URL || `/process`;
+      // Updated to point directly to your live AWS API Gateway Endpoint URL
+      const apiEndpoint = import.meta.env.VITE_API_GATEWAY_URL || "https://m1i195znvd.execute-api.us-east-1.amazonaws.com/process";
 
       const response = await fetch(`${apiEndpoint}?doc_type=${docType}&target_language=${targetLanguage}`, {
         method: "POST",

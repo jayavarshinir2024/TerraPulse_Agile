@@ -15,7 +15,7 @@ from datetime import datetime
 import boto3
 import tempfile
 import re
-import os
+
 
 
 genai.configure(api_key="GEMINI_API_KEY")
